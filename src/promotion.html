@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promotion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+    </style>
+</head>
+<body class="bg-white font-Roboto">
+
+    <div class="h-auto w-full bg-cover bg-center" style="background-image: url('images/backG.png');">
+
+        <nav class="flex justify-between items-center px-10 py-3">
+            <div class="flex items-center space-x-2">
+                <div class="w-12">
+                    <img src="images/logo.png" alt="Logo">
+                </div>
+
+                <div class="text-lg font-semibold font-Pacifico">
+                    Brew & Bake <span class="text-orange-500">Cafe</span>
+                </div>
+            </div>
+
+            <div class="flex justify-center flex-1 space-x-6 font-semibold">
+                <a href="#" class="hover:text-orange-500">Home</a>
+                <div class="relative group">
+                    <a href="product.html" class="hover:text-orange-500">Product</a>
+                    <ul class="absolute left-0 mt-2 w-48 bg-white shadow-md rounded-lg hidden group-hover:block">
+                        <li><a href="beverages.html" class="block px-4 py-2 hover:bg-orange-100 text-gray-800">Beverages</a></li>
+                        <li><a href="bakery.html" class="block px-4 py-2 hover:bg-orange-100 text-gray-800">Bakery</a></li>
+                    </ul>
+                </div>
+                <a href="promotion.html" class="hover:text-orange-500">Promotion</a>
+            </div>
+        
+            <div class="flex items-center space-x-4">
+                <div class="relative">
+                    <input type="text" placeholder="Search..." class="border px-3 py-1 rounded-full focus:outline-none">
+                </div>
+        
+                <button class="p-2 bg-white rounded-full hover:bg-orange-600">
+                    <a href="shopping.html">
+                        <img src="images/shopping-cart.png" alt="Cart" class="w-5 h-5">
+                    </a>
+                </button>
+        
+                <button class="p-2 bg-blue-400 text-white rounded-full hover:bg-orange-600">
+                    <a href="login.html">
+                        <img src="images/avatar.png" alt="Login" class="w-5 h-5">
+                    </a>
+                </button>
+            </div>
+        </nav>
+
+        <section class="container w-5/6 mx-auto py-48 flex flex-row items-center justify-center">
+            <div class="text-left pr-28">
+                <h1 class="text-5xl font-bold leading-snug">Enjoy exclusive <span class="text-orange-400">discounts</span>
+                    <p>and a variety of special <span class="text-orange-400">benefits</span></p>
+                </h1>
+                <p class="mt-3 text-gray-600 text-lg">Let us help you boost your productivity and build a good mood before starting your activities.</p>
+            </div>
+            <div class="relative flex justify-center items-center">
+                <img src="images/007.jpg" alt="Profile Image" class="w-96 h-96 object-cover rounded-full shadow-lg border-8 border-gray-300 border-opacity-50">
+            
+                <div class="absolute font-[Mitr] font-light w-full h-full">
+                    <p class="bg-white text-lg px-10 py-2 rounded-full shadow-md border-2 border-gray-200 border-opacity-50 absolute top-[8%] left-[-15%]">
+                        ขนมปังปิ้งหน้ามาร์ชแมลโลว์สตรอเบอร์รี่
+                    </p>
+                    <p class="bg-white text-lg px-10 py-2 rounded-full shadow-md border-2 border-gray-200 border-opacity-50 absolute bottom-[5%] left-[-15%] flex items-center">
+                        4.9 ⭐
+                    </p>
+                    <p class="bg-white text-lg px-10 py-2 rounded-full shadow-md border-2 border-gray-200 border-opacity-50 absolute bottom-[15%] right-[-20%] flex items-center">
+                        3.8K ❤️
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <div class="text-center pt-20 pb-32">
+        <div class="container mx-auto text-start">
+            <h2 class="text-3xl font-bold">Coupon</h2>
+            <div class="w-28 h-1 bg-orange-500 mt-2 rounded-full"></div>
+        </div>
+    </div>
+
+    <div class="flex flex-col items-center space-y-14">
+        <div class="relative w-3/5 h-auto py-16 px-6 rounded-md text-center flex flex-col items-center gap-4 bg-center bg-cover" style="background-image: url('images/005.jpg');">
+            <div class="absolute inset-0 bg-black/30 backdrop-blur-sm rounded-md"></div>
+            <h2 class="relative text-white text-lg font-semibold z-10">50% off on any one menu item for new customers</h2>
+            <a href="product.html" class="relative text-white bg-orange-500 px-32 py-2 rounded-full font-semibold hover:bg-orange-600 transition duration-300 z-10 text-center inline-block">
+                Order Now
+            </a>
+        </div>
+
+        <div class="relative w-3/5 h-auto py-16 px-6 rounded-md text-center flex flex-col items-center gap-4 bg-center bg-cover" style="background-image: url('images/005.jpg');">
+            <div class="absolute inset-0 bg-black/30 backdrop-blur-sm rounded-md"></div>
+            <h2 class="relative text-white text-lg font-semibold z-10">10% off on any one menu item for new customers</h2>
+            <a href="product.html" class="relative text-white bg-orange-500 px-32 py-2 rounded-full font-semibold hover:bg-orange-600 transition duration-300 z-10 text-center inline-block">
+                Order Now
+            </a>
+        </div>
+
+        <div class="relative w-3/5 h-auto py-16 px-6 rounded-md text-center flex flex-col items-center gap-4 bg-center bg-cover" style="background-image: url('images/005.jpg');">
+            <div class="absolute inset-0 bg-black/30 backdrop-blur-sm rounded-md"></div>
+            <h2 class="relative text-white text-lg font-semibold z-10">2% off on any one menu item for new customers</h2>
+            <a href="product.html" class="relative text-white bg-orange-500 px-32 py-2 rounded-full font-semibold hover:bg-orange-600 transition duration-300 z-10 text-center inline-block">
+                Order Now
+            </a>
+        </div>
+    </div>
+    
+    <div class="text-center pt-20 pb-32">
+        <div class="container mx-auto text-start">
+            <h2 class="text-3xl font-bold">Discout</h2>
+            <div class="w-28 h-1 bg-orange-500 mt-2 rounded-full"></div>
+        </div>
+    </div>
+
+    <div class="flex flex-col items-center space-y-14">
+        <div class="relative w-3/5 h-auto py-16 px-6 rounded-md text-center flex flex-col items-center gap-4 bg-center bg-cover" style="background-image: url('images/005.jpg');">
+            <div class="absolute inset-0 bg-black/30 backdrop-blur-sm rounded-md"></div>
+            <h2 class="relative text-white text-lg font-semibold z-10">50% off on any one menu item for new customers</h2>
+            <a href="product.html" class="relative text-white bg-orange-500 px-32 py-2 rounded-full font-semibold hover:bg-orange-600 transition duration-300 z-10 text-center inline-block">
+                Order Now
+            </a>
+        </div>
+
+        <div class="relative w-3/5 h-auto py-16 px-6 rounded-md text-center flex flex-col items-center gap-4 bg-center bg-cover" style="background-image: url('images/005.jpg');">
+            <div class="absolute inset-0 bg-black/30 backdrop-blur-sm rounded-md"></div>
+            <h2 class="relative text-white text-lg font-semibold z-10">10% off on any one menu item for new customers</h2>
+            <a href="product.html" class="relative text-white bg-orange-500 px-32 py-2 rounded-full font-semibold hover:bg-orange-600 transition duration-300 z-10 text-center inline-block">
+                Order Now
+            </a>
+        </div>
+
+        <div class="relative w-3/5 h-auto py-16 px-6 rounded-md text-center flex flex-col items-center gap-4 bg-center bg-cover" style="background-image: url('images/005.jpg');">
+            <div class="absolute inset-0 bg-black/30 backdrop-blur-sm rounded-md"></div>
+            <h2 class="relative text-white text-lg font-semibold z-10">2% off on any one menu item for new customers</h2>
+            <a href="product.html" class="relative text-white bg-orange-500 px-32 py-2 rounded-full font-semibold hover:bg-orange-600 transition duration-300 z-10 text-center inline-block">
+                Order Now
+            </a>
+        </div>
+    </div>
+</body>
+</html>
